@@ -60,8 +60,7 @@ const Header = () => {
 
           <div className="hidden md:flex space-x-6 text-sm md:text-base">
             <Link to="/" className="hover:text-emerald-200 transition duration-300 font-semibold">Home</Link>
-            <Link to="/services" className="hover:text-emerald-200 transition duration-300 font-semibold">Services</Link>
-            <Link to="/Catalog" className="hover:text-emerald-200 transition duration-300 font-semibold">Hospitals</Link>
+            <Link to="/Catalog" className="hover:text-emerald-200 transition duration-300 font-semibold">Doctors</Link>
             <Link to="/about" className="hover:text-emerald-200 transition duration-300 font-semibold">About Us</Link>
             <Link to="/contact" className="hover:text-emerald-200 transition duration-300 font-semibold">Contact</Link>
             {userRole === "doctor" && (
